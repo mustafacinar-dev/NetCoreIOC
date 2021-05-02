@@ -1,4 +1,5 @@
-﻿using NetCoreIOC.DataAccess.Repositories;
+﻿using NetCoreIOC.DataAccess;
+using NetCoreIOC.DataAccess.Repositories;
 using NetCoreIOC.Entities.Models;
 using System.Collections.Generic;
 
@@ -9,7 +10,7 @@ namespace NetCoreIOC.Service.Concrete
         private readonly ProductRepository _productRepository;
         public ProductService()
         {
-            _productRepository = new ProductRepository();
+            _productRepository = GenericFactory<ProductRepository>.GetFactory();
         }
 
         public List<Product> GetProducts() => _productRepository.GetProducts();
