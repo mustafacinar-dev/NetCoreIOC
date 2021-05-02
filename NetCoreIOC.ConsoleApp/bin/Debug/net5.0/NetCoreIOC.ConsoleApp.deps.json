@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NetCoreIOC.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "NetCoreIOC.Service": "1.0.0"
+        },
+        "runtime": {
+          "NetCoreIOC.ConsoleApp.dll": {}
+        }
+      },
+      "NetCoreIOC.DataAccess/1.0.0": {
+        "dependencies": {
+          "NetCoreIOC.Entities": "1.0.0"
+        },
+        "runtime": {
+          "NetCoreIOC.DataAccess.dll": {}
+        }
+      },
+      "NetCoreIOC.Entities/1.0.0": {
+        "runtime": {
+          "NetCoreIOC.Entities.dll": {}
+        }
+      },
+      "NetCoreIOC.Service/1.0.0": {
+        "dependencies": {
+          "NetCoreIOC.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "NetCoreIOC.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetCoreIOC.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCoreIOC.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCoreIOC.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCoreIOC.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

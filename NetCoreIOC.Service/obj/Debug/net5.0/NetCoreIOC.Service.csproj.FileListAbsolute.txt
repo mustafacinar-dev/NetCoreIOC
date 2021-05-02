@@ -1,0 +1,17 @@
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.csprojAssemblyReference.cache
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.AssemblyInfoInputs.cache
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.AssemblyInfo.cs
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.csproj.CoreCompileInputs.cache
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.Service.deps.json
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.Service.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\ref\NetCoreIOC.Service.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.Service.pdb
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.DataAccess.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.Entities.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.DataAccess.pdb
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\bin\Debug\net5.0\NetCoreIOC.Entities.pdb
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.csproj.CopyComplete
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\ref\NetCoreIOC.Service.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Service\obj\Debug\net5.0\NetCoreIOC.Service.pdb

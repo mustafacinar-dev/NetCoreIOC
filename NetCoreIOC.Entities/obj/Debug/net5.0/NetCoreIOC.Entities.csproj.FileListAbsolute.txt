@@ -1,0 +1,11 @@
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\bin\Debug\net5.0\NetCoreIOC.Entities.deps.json
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\bin\Debug\net5.0\NetCoreIOC.Entities.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\bin\Debug\net5.0\ref\NetCoreIOC.Entities.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\bin\Debug\net5.0\NetCoreIOC.Entities.pdb
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\NetCoreIOC.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\NetCoreIOC.Entities.AssemblyInfoInputs.cache
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\NetCoreIOC.Entities.AssemblyInfo.cs
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\NetCoreIOC.Entities.csproj.CoreCompileInputs.cache
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\NetCoreIOC.Entities.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\ref\NetCoreIOC.Entities.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.Entities\obj\Debug\net5.0\NetCoreIOC.Entities.pdb

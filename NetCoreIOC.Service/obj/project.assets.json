@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "NetCoreIOC.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NetCoreIOC.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NetCoreIOC.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCoreIOC.DataAccess.dll": {}
+        }
+      },
+      "NetCoreIOC.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/NetCoreIOC.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCoreIOC.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NetCoreIOC.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../NetCoreIOC.DataAccess/NetCoreIOC.DataAccess.csproj",
+      "msbuildProject": "../NetCoreIOC.DataAccess/NetCoreIOC.DataAccess.csproj"
+    },
+    "NetCoreIOC.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NetCoreIOC.Entities/NetCoreIOC.Entities.csproj",
+      "msbuildProject": "../NetCoreIOC.Entities/NetCoreIOC.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "NetCoreIOC.DataAccess >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CINAR\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

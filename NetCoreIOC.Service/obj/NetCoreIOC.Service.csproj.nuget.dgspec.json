@@ -4,6 +4,118 @@
     "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Service\\NetCoreIOC.Service.csproj": {}
   },
   "projects": {
+    "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj",
+        "projectName": "NetCoreIOC.DataAccess",
+        "projectPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\CINAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CINAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Entities\\NetCoreIOC.Entities.csproj": {
+                "projectPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Entities\\NetCoreIOC.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Entities\\NetCoreIOC.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Entities\\NetCoreIOC.Entities.csproj",
+        "projectName": "NetCoreIOC.Entities",
+        "projectPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Entities\\NetCoreIOC.Entities.csproj",
+        "packagesPath": "C:\\Users\\CINAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CINAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.Service\\NetCoreIOC.Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +139,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\CINAR\\Desktop\\Projects\\NetCoreIOC\\NetCoreIOC.DataAccess\\NetCoreIOC.DataAccess.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
