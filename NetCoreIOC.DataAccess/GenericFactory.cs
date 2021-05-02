@@ -1,8 +1,8 @@
 ﻿namespace NetCoreIOC.DataAccess
 {
-    public class GenericFactory<T> where T : class, new()
+    public class GenericFactory<T, K> where T : class, K, new()
     {
-        public static T GetFactory()
+        public static K GetFactory()
         {
             return new T();
         }

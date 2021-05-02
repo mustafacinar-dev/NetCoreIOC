@@ -1,9 +1,10 @@
-﻿using NetCoreIOC.Entities.Models;
+﻿using NetCoreIOC.DataAccess.Interfaces;
+using NetCoreIOC.Entities.Models;
 using System.Collections.Generic;
 
 namespace NetCoreIOC.DataAccess.Repositories
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly List<Product> _products;
         public ProductRepository()
@@ -19,6 +20,6 @@ namespace NetCoreIOC.DataAccess.Repositories
             };
         }
 
-        public List<Product> GetProducts() => _products;
+        public List<Product> GetAll() => _products;
     }
 }
