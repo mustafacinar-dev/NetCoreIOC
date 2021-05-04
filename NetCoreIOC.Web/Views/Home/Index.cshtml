@@ -1,0 +1,12 @@
+﻿@model List<DateTimeViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Constructor Injection Singleton DateTime: @Model[0].DateTimeNow.TimeOfDay</p>
+    <p>Constructor Injection Scoped DateTime: @Model[1].DateTimeNow.TimeOfDay</p>
+    <p>Constructor Injection Transient DateTime: @Model[2].DateTimeNow.TimeOfDay</p>
+    <p>MethodInjection Transient DateTime: @Model[3].DateTimeNow.TimeOfDay</p>
+</div>

@@ -22,3 +22,9 @@ C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.
 C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.0\NetCoreIOC.ConsoleApp.pdb
 C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.0\NetCoreIOC.ConsoleApp.genruntimeconfig.cache
 C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Autofac.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
