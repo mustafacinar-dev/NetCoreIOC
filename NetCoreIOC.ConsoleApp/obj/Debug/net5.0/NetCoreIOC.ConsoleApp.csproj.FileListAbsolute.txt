@@ -21,3 +21,4 @@ C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.
 C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.0\ref\NetCoreIOC.ConsoleApp.dll
 C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.0\NetCoreIOC.ConsoleApp.pdb
 C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\obj\Debug\net5.0\NetCoreIOC.ConsoleApp.genruntimeconfig.cache
+C:\Users\CINAR\Desktop\Projects\NetCoreIOC\NetCoreIOC.ConsoleApp\bin\Debug\net5.0\Autofac.dll

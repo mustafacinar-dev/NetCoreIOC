@@ -1,4 +1,8 @@
-﻿using NetCoreIOC.Service.Concrete;
+﻿using Autofac;
+using NetCoreIOC.DataAccess.Interfaces;
+using NetCoreIOC.DataAccess.Repositories;
+using NetCoreIOC.Service.Concrete;
+using NetCoreIOC.Service.Interfaces;
 using System;
 
 namespace NetCoreIOC.ConsoleApp
@@ -7,9 +11,10 @@ namespace NetCoreIOC.ConsoleApp
     {
         static void Main(string[] args)
         {
-            ProductService productService = new ProductService();
+            var container = BuildContainer();
+            var _productService = container.Resolve<IProductService>();
 
-            var products = productService.GetProducts();
+            var products = _productService.GetAll();
 
             foreach (var item in products)
             {
@@ -17,6 +22,14 @@ namespace NetCoreIOC.ConsoleApp
             }
 
             Console.ReadKey();
+        }
+
+        public static IContainer BuildContainer()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<ProductRepository>().As<IProductRepository>().InstancePerDependency();
+            builder.RegisterType<ProductService>().As<IProductService>().InstancePerDependency();
+            return builder.Build();
         }
     }
 }
